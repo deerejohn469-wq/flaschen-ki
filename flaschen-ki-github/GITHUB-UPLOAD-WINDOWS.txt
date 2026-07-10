@@ -1,0 +1,27 @@
+GITHUB-UPLOAD ÜBER DIE WEBSEITE
+
+1. Gehe zu github.com und melde dich an.
+2. Klicke oben rechts auf + und dann "New repository".
+3. Repository-Name: flaschen-ki
+4. Public auswählen.
+5. "Create repository" anklicken.
+6. Auf der Repository-Seite:
+   "uploading an existing file" anklicken.
+7. Alle Dateien und Ordner aus diesem Projektordner hineinziehen.
+8. Unten "Commit changes" anklicken.
+
+GITHUB PAGES
+
+1. Repository öffnen.
+2. Settings öffnen.
+3. Links Pages auswählen.
+4. Unter Source / Build and deployment: GitHub Actions auswählen.
+5. Zum Reiter Actions wechseln.
+6. Workflow "Deploy GitHub Pages" abwarten.
+7. Danach wird die öffentliche Website angezeigt.
+
+WICHTIG:
+GitHub Web-Upload kann bei sehr vielen Dateien oder großen Dateien unpraktisch sein.
+Für die App-Quelltexte klappt es normalerweise.
+Eine APK darf maximal 100 MB groß sein, wenn sie direkt ins Repository geladen wird.
+Besser ist häufig ein GitHub Release.

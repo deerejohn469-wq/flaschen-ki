@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Flaschen KI Standalone",
+    "slug": "flaschen-ki-standalone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.flaschenki.standalone",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "INTERNET"
+      ]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "Kamera f\u00fcr Barcode und Flaschenerfassung.",
+        "NSLocationWhenInUseUsageDescription": "Standort zur Dokumentation der Flasche."
+      }
+    }
+  }
+}
